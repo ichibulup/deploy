@@ -9,7 +9,7 @@
   "scripts": {
     "rimraf": "rimraf build",
     "builder": "rimraf .express && tsc",
-    "build": "tsc --build tsconfig.json --outDir .express",
+    "build": "tsc --build tsconfig.json",
     "start": "yarn build && node .express/app/index.js",
     "dev": "nodemon -r tsconfig-paths/register app/index.ts",
     "clean": "rm -rf .express node_modules",
