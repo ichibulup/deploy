@@ -10,7 +10,7 @@ import session from "express-session";
 import fs from 'fs';
 import http, { createServer } from "http";
 
-import demoRotes from '@/routes/demo';
+import demoRotes from '../routes/demo';
 
 // ================================
 // 🌐 EXPRESS SERVER CONFIGURATION
@@ -345,3 +345,5 @@ process.on('SIGTERM', async () => {
 
 // Start the server
 startServer();
+
+export default app;
