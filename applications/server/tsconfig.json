@@ -61,7 +61,7 @@
     // "noImplicitAny": true,
     // "noImplicitThis": true,
     // "noImplicitReturns": true
-    "ignoreDeprecations": "6.0"
+    // "ignoreDeprecations": "6.0"
   },
   "include": ["**/*.ts", ".express/types/**/*.ts", "express-env.d.ts"],
   "exclude": ["node_modules", ".express"]
