@@ -1,0 +1,80 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+**/node_modules
+
+node_modules
+.pnp
+.pnp.js
+
+# IDE
+/.idea/
+**/.idea
+**/.vscode
+
+# Build Outputs
+.next/
+out/
+build
+dist
+**/out
+**/build
+**/dist
+**/.next
+**/.expo
+**/.express
+/applications/server/.express
+/applications/client/.next
+/applications/mobile/.expo
+/applications/mobile/expo-env.d.ts
+/applications/admin/vite-env.d.ts
+/applications/client/next-env.d.ts
+**/**-env.d.ts
+**/**.d.ts
+
+# Local env files
+**/.env**
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# /applications/admin/.env.local
+# /applications/client/.env.local
+# /applications/cross/.env.local
+# /applications/desktop/.env.local
+# /applications/server/.env.local
+# /applications/admin/.env.production
+# /applications/client/.env.production
+# /applications/cross/.env.production
+# /applications/desktop/.env.production
+# /applications/server/.env.production
+
+
+# Misc
+Thumbs.db
+.DS_Store
+**/.DS_Store
+**/package-lock.json
+**/yarn.lock
+# **/pnpm-lock.yaml
+*.pem
+
+# Debug
+npm-debug.log*
+
+#/applications/admin/.DS_Store
+#/applications/client/.DS_Store
+#/applications/mobile/.DS_Store
+#/applications/desktop/.DS_Store
+#/applications/server/.DS_Store
+
+# Testing
+coverage
+
+# Turbo
+.turbo
+
+# Vercel
+.vercel
